@@ -8,6 +8,11 @@ and returns JSON chatbot responses.
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import nltk
+
+# ── NLTK data download (required on Render) ───────────────────────────────────
+nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 from chatbot import get_bot_response
 
