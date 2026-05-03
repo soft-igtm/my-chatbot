@@ -80,3 +80,4 @@ if __name__ == "__main__":
 
 
 
+CORS(app, origins=["https://my-chatbot-lovat-nine.vercel.app/"])
