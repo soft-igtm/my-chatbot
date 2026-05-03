@@ -15,7 +15,7 @@
 /* ═══════════════════════════════════════════════════════════════
    CONFIG
 ═══════════════════════════════════════════════════════════════ */
-const API_URL         = "http://127.0.0.1:5000/chat";
+const API_URL         = "https://my-chatbot-7.onrender.com/chat";
 const TYPING_DELAY_MS = 900;   // Simulated "thinking" delay
 const MAX_CHARS       = 500;
 
